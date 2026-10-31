@@ -1,0 +1,41 @@
+{
+  "remote": "https://github.com/cursor/plugins",
+  "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+  "pstackVersion": "0.15.36",
+  "adapter": {
+    "remote": "https://github.com/kakadiadarpan/pstack-opencode",
+    "sha": "35f8dfc8da3f0c3f075653d4124ef46e808b14b8",
+    "imported": [
+      "vendor/",
+      "port/",
+      "scripts/build.ts"
+    ]
+  },
+  "inspected": [
+    {
+      "repository": "falentio/opencode-pstack",
+      "sha": "14fc4a66fc5f0265fb4068b16dee8045abdeac89"
+    }
+  ],
+  "components": [
+    {
+      "name": "pstack",
+      "exclude": [
+        ".cursor-plugin/",
+        ".gitignore",
+        "assets/",
+        "docs/guide/images/",
+        "skills/statechart/scripts/test/"
+      ]
+    },
+    {
+      "name": "cursor-team-kit",
+      "include": [
+        "LICENSE",
+        "skills/deslop/",
+        "skills/control-cli/",
+        "skills/control-ui/"
+      ]
+    }
+  ]
+}
